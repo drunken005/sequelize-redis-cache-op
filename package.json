@@ -1,0 +1,39 @@
+{
+  "name": "sequelize-redis-cache-op",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drunken005/sequelize-redis-cache-op.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drunken005/sequelize-redis-cache-op/issues"
+  },
+  "homepage": "https://github.com/drunken005/sequelize-redis-cache-op#readme",
+  "keywords": [
+    "sequelize",
+    "mysql",
+    "redis",
+    "cache",
+    "postgres",
+    "sqlite"
+  ],
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "circular-json": "^0.5.9",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "mocha": "2.5.3",
+    "redis": "~2.6.0",
+    "sequelize": "~3.23.0",
+    "should": "10.0.0",
+    "sqlite3": "~3.1.0"
+  }
+}
